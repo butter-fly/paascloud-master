@@ -203,7 +203,6 @@ public class AliyunMqTopicConstants {
 
 	private static String buildOpcConsumerTopics() {
 		List<TopicObj> topicObjList = new ArrayList<>();
-
 		Set<String> sendSmsTagList = new HashSet<>();
 		sendSmsTagList.add(MqTagEnum.REGISTER_USER_AUTH_CODE.getTag());
 		Set<String> sendEmailTagList = new HashSet<>();
